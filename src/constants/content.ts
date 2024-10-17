@@ -2,7 +2,7 @@ export const prompt = 'User@Host:~$ '
 
 export const welcomeMessage = `Welcome to my interactive terminal website. For a list of supported commands type 'help'. Enjoy your stay!`
 
-export const whoami = `Hi, I'm Jeffery a new grad software engineer who loves building things and taking on new challenges. I'm\
+export const whoami = `Hi, I'm Jeffery a new grad software engineer who loves building things and taking on new challenges. I'm\ 
 currently looking for a software engineering position and if you're interested check out 'contacts.txt'for my contact info!`
 
 export const cat = {
