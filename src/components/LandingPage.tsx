@@ -34,8 +34,12 @@ const LandingPage = () => {
     }
 
     return (
-        <div className="min-h-screen flex flex-col py-2 px-3" onClick={() => inputRef.current?.focus()}>
-            {!welcomed ? <div>{welcomeMessage}</div> : null}
+        <div
+            data-testid="landing-page"
+            className="min-h-screen flex flex-col py-2 px-3"
+            onClick={() => inputRef.current?.focus()}
+        >
+            {!welcomed ? <div data-testid="welcome-message">{welcomeMessage}</div> : null}
             {commandHistory.map((command, index) => (
                 <Response key={index} command={command} />
             ))}

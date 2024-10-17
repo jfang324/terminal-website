@@ -18,6 +18,10 @@ const ErrorResponse = ({ command }: ErrorResponseProps) => {
         return <div>{`${name}: command not found, type 'help' for supported commands`}</div>
     }
 
+    if (name === 'cat' && !commandInfo.validArgs.includes(args[0])) {
+        return <div>{`${name}: ${args[0]}: no such file or directory`}</div>
+    }
+
     if (args.length < commandInfo.numArgs) {
         return <div>{`${name}: missing operand, type 'help' for supported commands`}</div>
     }

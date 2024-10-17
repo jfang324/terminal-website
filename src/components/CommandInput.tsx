@@ -31,8 +31,11 @@ const CommandInput = ({ inputRef, processCommand }: CommandInputProps) => {
                 </span>
             </div>
             <input
+                data-testid="command-input"
                 type="text"
                 spellCheck={false}
+                autoCorrect="false"
+                autoComplete="false"
                 ref={inputRef}
                 value={command}
                 onChange={handleChange}

@@ -8,7 +8,16 @@
     </p>
 </div>
 
-## Installation
+## About The Project
+
+This project is a alternate portfolio website based on the linux terminal. Navigation is done using common linux commands like 'ls', 'cat', etc. The project is deployed on
+[terminal.jefferyfang.com](https://terminal.jefferyfang.com) feel free to check it out!
+
+## Getting Started
+
+To get a local version running follow these steps:
+
+### Installation
 
 1. Clone this repository
 
@@ -27,6 +36,12 @@
     ```sh
     npm run build
     npm run start
+    ```
+
+4. Run the cypress tests
+
+    ```sh
+    npm run test
     ```
 
 ## Gallery & Demonstrations
@@ -57,4 +72,5 @@ Jeffery Fang - Jefferyfang324@gmail.com
 -   Next.js
 -   TailwindCSS
 -   React
+-   Cypress
 -   Vercel

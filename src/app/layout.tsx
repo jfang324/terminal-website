@@ -14,11 +14,11 @@ export const metadata = {
     description: 'A website about me reminiscent of the linux terminal',
 }
 
-export default function RootLayout({
+const RootLayout = ({
     children,
 }: Readonly<{
     children: React.ReactNode
-}>) {
+}>) => {
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
@@ -32,9 +32,11 @@ export default function RootLayout({
                     enableSystem
                 >
                     {children}
+                    <Analytics />
                 </ThemeProvider>
-                <Analytics />
             </body>
         </html>
     )
 }
+
+export default RootLayout

@@ -19,7 +19,7 @@ interface ResponseProps {
 const Response = ({ command }: ResponseProps) => {
     if (!validateCommand(command.name, command.args)) {
         return (
-            <div className="w-full flex flex-col">
+            <div data-testid="error-response" className="w-full flex flex-col">
                 <div>
                     {prompt} {command.name} {command.args.join(' ')}
                 </div>
@@ -48,7 +48,7 @@ const Response = ({ command }: ResponseProps) => {
     }
 
     return (
-        <div className="w-full flex flex-col">
+        <div data-testid="valid-response" className="w-full flex flex-col">
             <div>
                 {prompt} {command.name} {command.args.join(' ')}
             </div>
