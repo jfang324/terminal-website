@@ -33,7 +33,7 @@ const CatResponse = ({ file }: CatResponseProps) => {
                     <a
                         href={url as string}
                         key={url as string}
-                        className="text-blue-600 hover:text-blue-500 whitespace-nowrap px-1"
+                        className="text-red-600 dark:text-blue-600 hover:text-red-500 dark:hover:text-blue-500 whitespace-nowrap px-1 font-bold"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
