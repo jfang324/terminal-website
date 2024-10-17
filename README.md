@@ -31,16 +31,20 @@
 
 ## Gallery & Demonstrations
 
-<img src = "https://github.com/user-attachments/assets/2dbc8579-839f-4486-adaa-7501883a7171">
+<img src = "https://github.com/user-attachments/assets/21af3c4d-3e2c-4e6d-8a31-eb0460e107e0">
 </img>
 
 _Desktop View_
 
-<br />
-<img src = "https://github.com/user-attachments/assets/869d1ed0-015f-4939-bee3-63599bc8549a" width = "auto" height = "500">
+<img src = "https://github.com/user-attachments/assets/2b0a8ca3-3c81-45c2-a3d2-73e21dfd2bf0">
 </img>
 
-_Mobile View_
+_Light Mode Desktop View_
+
+<img src = "https://github.com/user-attachments/assets/f25b6072-1e93-46a4-a84b-40a790345d7a">
+</img>
+
+_Valorant Theme Desktop View_
 
 <br />
 
