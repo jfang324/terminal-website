@@ -1,5 +1,9 @@
 import { useState } from 'react'
 
+/**
+ * Hook to manage the state of the command input
+ * @param processCommand - Function to process the command
+ */
 export const useCommandInput = (processCommand: (command: string) => void) => {
     const [command, setCommand] = useState('')
     const [isFocused, setIsFocused] = useState(false)

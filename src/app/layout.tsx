@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from 'next-themes'
 import { Ubuntu_Mono } from 'next/font/google'
 import './globals.css'
@@ -32,6 +33,7 @@ export default function RootLayout({
                 >
                     {children}
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     )
