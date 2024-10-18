@@ -38,7 +38,9 @@ To get a local version running follow these steps:
     npm run start
     ```
 
-4. Run the cypress tests
+4. Open your browser and navigate to [localhost:3000](http://localhost:3000) to access the application
+
+5. To run the cypress tests (make sure you built the project first)
 
     ```sh
     npm run test

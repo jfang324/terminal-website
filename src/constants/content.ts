@@ -21,6 +21,7 @@ export const cat = {
             'Next.js',
             'Tailwind CSS',
             'Pytest',
+            'Cypress',
         ],
     },
     'projects.txt': {
