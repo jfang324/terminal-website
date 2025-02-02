@@ -7,7 +7,7 @@ currently looking for a software engineering position and if you're interested c
 
 export const cat = {
     'skills.txt': {
-        'Programming Languages': ['JavaScript', 'TypeScript', 'HTML/CSS', 'Python', 'C++', 'SQL', 'Java'],
+        'Programming Languages': ['TypeScript', 'JavaScript', 'HTML/CSS', 'Python', 'C++', 'SQL', 'Java'],
         'Software/Tools': ['Visual Studio Code', 'Git', 'Vite', 'Postman', 'VirtualBox', 'Linux'],
         'Cloud Infrastructure': ['AWS', 'MongoDB Atlas', 'GitHub Actions', 'Auth0', 'Vercel'],
         Technologies: [
@@ -16,18 +16,19 @@ export const cat = {
             'React',
             'MongoDB',
             'PostgreSQL',
-            'Bootstrap',
-            'Jest',
             'Next.js',
             'Tailwind CSS',
+            'Bootstrap',
+            'Jest',
             'Pytest',
             'Cypress',
         ],
     },
     'projects.txt': {
         ValoGraphs: 'https://valographs.com/',
-        FileBox: 'https://github.com/jfang324/FileBox',
+        FileBox: 'https://filebox-demo.vercel.app/',
         'mangadex-downloader': 'https://github.com/jfang324/mangadex-downloader',
+        'portfolio-admin-tool': 'https://github.com/jfang324/portfolio-admin-tool',
         'image-to-pdf': 'https://github.com/jfang324/image-to-pdf',
         'terminal-website': 'https://github.com/jfang324/terminal-website',
     },

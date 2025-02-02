@@ -25,22 +25,28 @@ To get a local version running follow these steps:
     git clone https://github.com/jfang324/terminal-website.git
     ```
 
-2. Install NPM packages
+2. Navigate to the project directory
+
+    ```sh
+    cd terminal-website
+    ```
+
+3. Install NPM packages
 
     ```sh
     npm install
     ```
 
-3. Build and run with next.js if you want to check it out
+4. Build and run with next.js if you want to check it out
 
     ```sh
     npm run build
     npm run start
     ```
 
-4. Open your browser and navigate to [localhost:3000](http://localhost:3000) to access the application
+5. Open your browser and navigate to [localhost:3000](http://localhost:3000) to access the application
 
-5. To run the cypress tests (make sure you built the project first)
+6. To run the cypress tests (make sure you built the project first)
 
     ```sh
     npm run test
